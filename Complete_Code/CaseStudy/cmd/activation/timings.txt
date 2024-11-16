@@ -1,0 +1,5 @@
+time go run main.go > running_record.txt
+
+real    0m15.962s
+user    0m15.423s
+sys     0m1.264s

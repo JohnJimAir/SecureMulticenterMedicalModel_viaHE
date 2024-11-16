@@ -1,0 +1,580 @@
+
+The 0-th sample: 
+[0.9557382202307143 -3.1266105769400743]
+
+Layer 1 begins ...
+The first weight matrix of layer 1: 
+[0.1815 -0.1109]
+[0.2211 0.1945]
+[-0.52 -0.4896]
+[-0.3234 -0.4623]
+[0.1522 0.1109]
+[0.7027 -0.2258]
+The first bias vector of layer 1: 
+[-0.6859 0.549 0.3449 -0.6427 -0.889 0.6273]
+The indices of the nonzero diagonals of the first weight matrix for layer 1: 
+[-5 -4 -3 -2 -1 0 1]
+Plaintext results after the first linear tranformation of layer 1: 
+(0.5202075999545289+0i), (-0.3968120367218336+0i), (1.0338046639498888+0i), (1.1363463292967833+0i), (-0.20127775586353952+0i), (1.3775859156291916+0i), 
+Encrypted results after the first linear tranformation of layer 1: 
+[0.5202075999870602 -0.39681203669891385 1.0338046635755476 1.1363463292584304 -0.2012777558652507 1.3775859156696302]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 1: 
+(-0.16569240004547103+0i), (0.15218796327816642+0i), (1.3787046639498888+0i), (0.4936463292967832+0i), (-1.0902777558635395+0i), (2.004885915629192+0i), 
+Encrypted results after addition followed the first LT in layer 1: 
+[-0.16569240001280783 0.15218796330002354 1.3787046635759086 0.49364632925988206 -1.0902777558649381 2.0048859156694974]
+
+The second weight matrix of layer 1: 
+[-0.1868 0.6503]
+[-0.4815 0.4987]
+[-0.6861 -0.4742]
+[-0.145 -0.3644]
+[0.9191 -0.4693]
+[-0.5791 -0.567]
+The second bias vector of layer 1: 
+[0.9008 -0.6776 0.2329 -0.8234 0.4651 -0.1334]
+The indices of the nonzero diagonals of the second weight matrix for layer 1: 
+[-5 -4 -3 -2 -1 0 1]
+Plaintext results after the second linear tranformation of layer 1: 
+(-2.2117667577232276+0i), (-2.019428647761104+0i), (0.8269067426846901+0i), (1.0007548523035095+0i), (2.3457373419720264+0i), (1.2193201937894154+0i), 
+Encrypted results after the second linear tranformation of layer 1: 
+[-2.21176675776194 -2.0194286477512096 0.8269067430054097 1.0007548524139798 2.345737342005408 1.2193201937632445]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 1: 
+(-1.3109667577232276+0i), (-2.697028647761104+0i), (1.0598067426846902+0i), (0.17735485230350945+0i), (2.8108373419720265+0i), (1.0859201937894154+0i), 
+Encrypted results after addition followed the second LT in layer 1: 
+[-1.3109667577608968 -2.6970286477524934 1.0598067430057583 0.17735485241597482 2.8108373420031842 1.0859201937642449]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 1: 
+(0.21721722846699112-0i), (-0.4104552968056297+0i), (1.461160499024922+0i), (0.08755057182260058+0i), (-3.0645934293026973+0i), (2.1771461020257217+0i), 
+Encrypted results after multiplication in layer 1: 
+[0.21721722831403079 -0.4104552968905515 1.4611604990536606 0.08755057179402576 -3.0645934293392196 2.1771461019965814]
+
+Layer 2 begins ...
+The first weight matrix of layer 2: 
+[-0.1156 0.0317 0.3381 0.617 -0.12 0.1477]
+[0.5424 0.4867 -0.4565 -0.6493 0.1044 -0.2335]
+[0.5554 0.4848 0.0442 -0.5252 0.5687 0.3172]
+[-0.566 -0.235 0.045 -0.0896 0.0827 0.3827]
+The first bias vector of layer 2: 
+[0.7512 -0.8474 -0.2964 0.7326]
+The indices of the nonzero diagonals of the first weight matrix for layer 2: 
+[-3 -2 -1 0 1 2 3 4 5]
+Plaintext results after the first linear tranformation of layer 2: 
+(1.1992310138080255+0i), (-1.6341234912821745+0i), (-1.1119880852868758+0i), (0.6111716713959464+0i), 
+Encrypted results after the first linear tranformation of layer 2: 
+[1.1992310137997104 -1.634123491301497 -1.1119880851851982 0.6111716714255095]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 2: 
+(1.9504310138080254+0i), (-2.4815234912821746+0i), (-1.4083880852868758+0i), (1.3437716713959464+0i), 
+Encrypted results after addition followed the first LT in layer 2: 
+[1.9504309767207682 -2.4815234494734444 -1.4083880705552594 1.3437716352644884]
+
+The second weight matrix of layer 2: 
+[-1.0146 0.1661]
+[-0.591 0.2612]
+[-0.8615 0.2028]
+[0.0883 0.4161]
+The second bias vector of layer 2: 
+[0.3899 0.5182 -0.9276 -0.918]
+The indices of the nonzero diagonals of the second weight matrix for layer 2: 
+[-3 -2 -1 0 1]
+Plaintext results after the second linear tranformation of layer 2: 
+(-1.4890220150758289+0i), (-1.3815119708530994+0i), (-1.4574451017322074+0i), (-1.2165909762183928+0i), 
+Encrypted results after the second linear tranformation of layer 2: 
+[-1.4890220150985292 -1.3815119707984704 -1.4574451017934282 -1.216590976244706]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 2: 
+(-1.099122015075829+0i), (-0.8633119708530994+0i), (-2.3850451017322074+0i), (-2.134590976218393+0i), 
+Encrypted results after addition followed the second LT in layer 2: 
+[-1.0991220150983383 -0.8633119707988982 -2.3850451017923127 -2.134590976243955]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 2: 
+(-2.1437616661630687+0i), (2.142328935977078-0i), (3.3590691041514655-0i), (-2.868402883859695+0i), 
+Encrypted results after multiplication in layer 2: 
+[-2.1437616254444167 2.1423288997842613 3.359069068904194 -2.868402806842177]
+
+Layer 3 begins ...
+The first weight matrix of layer 3: 
+[-0.8294 0.3906 0.5344 0.2083]
+[-0.0553 0.8041 -0.2445 0.5095]
+The first bias vector of layer 3: 
+[-0.1837 -0.7277]
+The indices of the nonzero diagonals of the first weight matrix for layer 3: 
+[-1 0 1 2 3]
+Plaintext results after the first linear tranformation of layer 3: 
+(3.8124277661565076+0i), (-0.4415469312295637+0i), 
+Encrypted results after the first linear tranformation of layer 3: 
+[3.812427766038815 -0.44154693124587224]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 3: 
+(3.6287277661565076+0i), (-1.1692469312295637+0i), 
+Encrypted results after addition followed the first LT in layer 3: 
+[3.628727780068407 -1.1692468756725218]
+
+The second weight matrix of layer 3: 
+[0.2618 0.2026]
+[-0.7056 -0.0965]
+The second bias vector of layer 3: 
+[-0.9155 0.1318]
+The indices of the nonzero diagonals of the second weight matrix for layer 3: 
+[-1 0 1]
+Plaintext results after the second linear tranformation of layer 3: 
+(-0.38323903683165805+0i), (-0.3726509675200748+0i), 
+Encrypted results after the second linear tranformation of layer 3: 
+[-0.3832390369095007 -0.37265096752557436]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 3: 
+(-1.298739036831658+0i), (-0.24085096752007482+0i), 
+Encrypted results after addition followed the second LT in layer 3: 
+[-1.2987390369080067 -0.24085096752430862]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 3: 
+(-4.712770403942397+0i), (0.2816142546565188-0i), 
+Encrypted results after multiplication in layer 3: 
+[-4.712770422289825 0.281614241294311]
+********************************************************************
+
+The 1-th sample: 
+[-1.0591648869072603 1.8493257652108137]
+
+Layer 1 begins ...
+The first weight matrix of layer 1: 
+[0.1815 -0.1109]
+[0.2211 0.1945]
+[-0.52 -0.4896]
+[-0.3234 -0.4623]
+[0.1522 0.1109]
+[0.7027 -0.2258]
+The first bias vector of layer 1: 
+[-0.6859 0.549 0.3449 -0.6427 -0.889 0.6273]
+The indices of the nonzero diagonals of the first weight matrix for layer 1: 
+[-5 -4 -3 -2 -1 0 1]
+Plaintext results after the first linear tranformation of layer 1: 
+(-0.397328654335547+0i), (0.12551250483830803+0i), (-0.354664153455439+0i), (-0.5124093768311512+0i), (0.043885331574594205+0i), (-1.1618529238143336+0i), 
+Encrypted results after the first linear tranformation of layer 1: 
+[-0.39732865433226394 0.12551250481800735 -0.35466415368539284 -0.5124093767443372 0.0438853315713834 -1.1618529238004731]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 1: 
+(-1.083228654335547+0i), (0.674512504838308+0i), (-0.009764153455439017+0i), (-1.1551093768311511+0i), (-0.8451146684254058+0i), (-0.5345529238143336+0i), 
+Encrypted results after addition followed the first LT in layer 1: 
+[-1.0832286543321321 0.6745125048169447 -0.009764153685031546 -1.1551093767428855 -0.8451146684283042 -0.534552923800606]
+
+The second weight matrix of layer 1: 
+[-0.1868 0.6503]
+[-0.4815 0.4987]
+[-0.6861 -0.4742]
+[-0.145 -0.3644]
+[0.9191 -0.4693]
+[-0.5791 -0.567]
+The second bias vector of layer 1: 
+[0.9008 -0.6776 0.2329 -0.8234 0.4651 -0.1334]
+The indices of the nonzero diagonals of the second weight matrix for layer 1: 
+[-5 -4 -3 -2 -1 0 1]
+Plaintext results after the second linear tranformation of layer 1: 
+(1.4004685459908683+0i), (1.4322466521564785+0i), (-0.15025724895589654+0i), (-0.5203154002412678+0i), (-1.8413670291698978+0i), (-0.4352053228665369+0i), 
+Encrypted results after the second linear tranformation of layer 1: 
+[1.4004685459984563 1.4322466521237807 -0.15025724884613367 -0.5203154001389014 -1.841367029152197 -0.4352053228706517]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 1: 
+(2.3012685459908684+0i), (0.7546466521564785+0i), (0.08264275104410346+0i), (-1.3437154002412677+0i), (-1.3762670291698977+0i), (-0.5686053228665369+0i), 
+Encrypted results after addition followed the second LT in layer 1: 
+[2.3012685459995 0.7546466521224968 0.0826427511542149 -1.3437154001369063 -1.3762670291544208 -0.5686053228696512]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 1: 
+(-2.492800030338409+0i), (0.5090186036139097+0i), (-0.0008069365031742692+0i), (1.5521382586111114-0i), (1.1631034540217364-0i), (0.30394963783470047-0i), 
+Encrypted results after multiplication in layer 1: 
+[-2.492800030279391 0.5090186035945963 -0.0008069363961457158 1.5521382584233745 1.1631034540123582 0.3039496378413397]
+
+Layer 2 begins ...
+The first weight matrix of layer 2: 
+[-0.1156 0.0317 0.3381 0.617 -0.12 0.1477]
+[0.5424 0.4867 -0.4565 -0.6493 0.1044 -0.2335]
+[0.5554 0.4848 0.0442 -0.5252 0.5687 0.3172]
+[-0.566 -0.235 0.045 -0.0896 0.0827 0.3827]
+The first bias vector of layer 2: 
+[0.7512 -0.8474 -0.2964 0.7326]
+The indices of the nonzero diagonals of the first weight matrix for layer 2: 
+[-3 -2 -1 0 1 2 3 4 5]
+Plaintext results after the first linear tranformation of layer 2: 
+(1.1670210005136143+0i), (-2.061334626620571+0i), (-1.1950778382870786+0i), (1.364707727249547+0i), 
+Encrypted results after the first linear tranformation of layer 2: 
+[1.1670210005350632 -2.0613346266534647 -1.195077838410016 1.3647077273070514]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 2: 
+(1.9182210005136144+0i), (-2.908734626620571+0i), (-1.4914778382870786+0i), (2.097307727249547+0i), 
+Encrypted results after addition followed the first LT in layer 2: 
+[1.918220963456121 -2.908734584825411 -1.4914778237800772 2.097307691146031]
+
+The second weight matrix of layer 2: 
+[-1.0146 0.1661]
+[-0.591 0.2612]
+[-0.8615 0.2028]
+[0.0883 0.4161]
+The second bias vector of layer 2: 
+[0.3899 0.5182 -0.9276 -0.918]
+The indices of the nonzero diagonals of the second weight matrix for layer 2: 
+[-3 -2 -1 0 1]
+Plaintext results after the second linear tranformation of layer 2: 
+(1.3818017038576225+0i), (1.1090103380352554+0i), (1.2875138152553578+0i), (0.6759801913903085+0i), 
+Encrypted results after the second linear tranformation of layer 2: 
+[1.3818017040612443 1.1090103380207839 1.2875138152268897 0.6759801914055383]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 2: 
+(1.7717017038576226+0i), (1.6272103380352554+0i), (0.3599138152553578+0i), (-0.24201980860969152+0i), 
+Encrypted results after addition followed the second LT in layer 2: 
+[1.7717017040614347 1.627210338020356 0.3599138152280047 -0.24201980859371053]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 2: 
+(3.3985154149854444+0i), (-4.733123055038112+0i), (-0.536803479146716+0i), (-0.5075900147445624+0i), 
+Encrypted results after multiplication in layer 2: 
+[3.398515349862353 -4.733122987000513 -0.5368034739218004 -0.5075900059178626]
+
+Layer 3 begins ...
+The first weight matrix of layer 3: 
+[-0.8294 0.3906 0.5344 0.2083]
+[-0.0553 0.8041 -0.2445 0.5095]
+The first bias vector of layer 3: 
+[-0.1837 -0.7277]
+The indices of the nonzero diagonals of the first weight matrix for layer 3: 
+[-1 0 1 2 3]
+Plaintext results after the first linear tranformation of layer 3: 
+(-5.060085244594737+0i), (-4.121210751335772+0i), 
+Encrypted results after the first linear tranformation of layer 3: 
+[-5.060085244591149 -4.121210751358923]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 3: 
+(-5.243785244594737+0i), (-4.848910751335772+0i), 
+Encrypted results after addition followed the first LT in layer 3: 
+[-5.243785230561558 -4.848910695785573]
+
+The second weight matrix of layer 3: 
+[0.2618 0.2026]
+[-0.7056 -0.0965]
+The second bias vector of layer 3: 
+[-0.9155 0.1318]
+The indices of the nonzero diagonals of the second weight matrix for layer 3: 
+[-1 0 1]
+Plaintext results after the second linear tranformation of layer 3: 
+(0.0973840326393901+0i), (0.5688868078589193+0i), 
+Encrypted results after the second linear tranformation of layer 3: 
+[0.09738403261498493 0.5688868078293378]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 3: 
+(-0.8181159673606099+0i), (0.7006868078589193+0i), 
+Encrypted results after addition followed the second LT in layer 3: 
+[-0.8181159673835212 0.7006868078306034]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 3: 
+(4.2900244380129156-0i), (-3.3975677959462565+0i), 
+Encrypted results after multiplication in layer 3: 
+[4.290024426629994 -3.397567756922518]
+********************************************************************
+
+The 2-th sample: 
+[-0.984433521859988 0.8762953218501104]
+
+Layer 1 begins ...
+The first weight matrix of layer 1: 
+[0.1815 -0.1109]
+[0.2211 0.1945]
+[-0.52 -0.4896]
+[-0.3234 -0.4623]
+[0.1522 0.1109]
+[0.7027 -0.2258]
+The first bias vector of layer 1: 
+[-0.6859 0.549 0.3449 -0.6427 -0.889 0.6273]
+The indices of the nonzero diagonals of the first weight matrix for layer 1: 
+[-5 -4 -3 -2 -1 0 1]
+Plaintext results after the first linear tranformation of layer 1: 
+(-0.2758558354107651+0i), (-0.047218811583396886+0i), (0.08287124178937977+0i), (-0.08674552632178584+0i), (-0.05264963083391294+0i), (-0.8896289194847685+0i), 
+Encrypted results after the first linear tranformation of layer 1: 
+[-0.2758558354361771 -0.04721881157278416 0.08287124162914916 -0.08674552651223728 -0.05264963081674992 -0.889628919440625]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 1: 
+(-0.961755835410765+0i), (0.5017811884166031+0i), (0.42777124178937975+0i), (-0.7294455263217858+0i), (-0.941649630833913+0i), (-0.26232891948476855+0i), 
+Encrypted results after addition followed the first LT in layer 1: 
+[-0.9617558354360451 0.5017811884261532 0.4277712416295104 -0.7294455265107856 -0.9416496308164374 -0.2623289194407582]
+
+The second weight matrix of layer 1: 
+[-0.1868 0.6503]
+[-0.4815 0.4987]
+[-0.6861 -0.4742]
+[-0.145 -0.3644]
+[0.9191 -0.4693]
+[-0.5791 -0.567]
+The second bias vector of layer 1: 
+[0.9008 -0.6776 0.2329 -0.8234 0.4651 -0.1334]
+The indices of the nonzero diagonals of the second weight matrix for layer 1: 
+[-5 -4 -3 -2 -1 0 1]
+Plaintext results after the second linear tranformation of layer 1: 
+(0.7537470296825726+0i), (0.9110132177822342+0i), (0.25988059772681543+0i), (-0.176579154612482+0i), (-1.316038244485772+0i), (0.07322600502010645+0i), 
+Encrypted results after the second linear tranformation of layer 1: 
+[0.7537470297236432 0.9110132178050916 0.25988059774104766 -0.17657915459871829 -1.3160382445741745 0.07322600508116663]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 1: 
+(1.6545470296825726+0i), (0.23341321778223423+0i), (0.49278059772681543+0i), (-0.999979154612482+0i), (-0.8509382444857718+0i), (-0.060173994979893536+0i), 
+Encrypted results after addition followed the second LT in layer 1: 
+[1.6545470297246867 0.2334132178038078 0.49278059774139626 -0.9999791545967233 -0.8509382445763982 -0.060173994917832874]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 1: 
+(-1.5912702607587625+0i), (0.11712236181091289+0i), (0.21079736821931264+0i), (0.7294303207471163-0i), (0.801285683782485-0i), (0.015785379084157357-0i), 
+Encrypted results after multiplication in layer 1: 
+[-1.591270260892579 0.11712236184400879 0.21079736785843065 0.7294303209007402 0.8012856838550273 0.015785379044140117]
+
+Layer 2 begins ...
+The first weight matrix of layer 2: 
+[-0.1156 0.0317 0.3381 0.617 -0.12 0.1477]
+[0.5424 0.4867 -0.4565 -0.6493 0.1044 -0.2335]
+[0.5554 0.4848 0.0442 -0.5252 0.5687 0.3172]
+[-0.566 -0.235 0.045 -0.0896 0.0827 0.3827]
+The first bias vector of layer 2: 
+[0.7512 -0.8474 -0.2964 0.7326]
+The indices of the nonzero diagonals of the first weight matrix for layer 2: 
+[-3 -2 -1 0 1 2 3 4 5]
+Plaintext results after the first linear tranformation of layer 2: 
+(0.6151699375205456+0i), (-1.2959813023992217+0i), (-0.7400918521143338+0i), (0.8895715280477839+0i), 
+Encrypted results after the first linear tranformation of layer 2: 
+[0.6151699374903821 -1.2959813023649178 -0.7400918523386076 0.8895715280075651]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 2: 
+(1.3663699375205456+0i), (-2.143381302399222+0i), (-1.0364918521143338+0i), (1.622171528047784+0i), 
+Encrypted results after addition followed the first LT in layer 2: 
+[1.3663699004114398 -2.143381260536864 -1.036491837708669 1.6221714918465442]
+
+The second weight matrix of layer 2: 
+[-1.0146 0.1661]
+[-0.591 0.2612]
+[-0.8615 0.2028]
+[0.0883 0.4161]
+The second bias vector of layer 2: 
+[0.3899 0.5182 -0.9276 -0.918]
+The indices of the nonzero diagonals of the second weight matrix for layer 2: 
+[-3 -2 -1 0 1]
+Plaintext results after the second linear tranformation of layer 2: 
+(1.1443589042384472+0i), (0.8106885494865017+0i), (1.0258021703535822+0i), (0.277701003441594+0i), 
+Encrypted results after the second linear tranformation of layer 2: 
+[1.1443589043246751 0.8106885495260217 1.025802170281151 0.27770100349073096]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 2: 
+(1.5342589042384471+0i), (1.3288885494865017+0i), (0.09820217035358225+0i), (-0.640298996558406+0i), 
+Encrypted results after addition followed the second LT in layer 2: 
+[1.534258904324866 1.328888549525594 0.09820217028226594 -0.640298996508518]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 2: 
+(2.0963652431246276+0i), (-2.848314869941791+0i), (-0.10178574943143179+0i), (-1.0386748016546123+0i), 
+Encrypted results after multiplication in layer 2: 
+[2.096365186245014 -2.848314814428104 -0.10178574811628946 -1.0386747784760804]
+
+Layer 3 begins ...
+The first weight matrix of layer 3: 
+[-0.8294 0.3906 0.5344 0.2083]
+[-0.0553 0.8041 -0.2445 0.5095]
+The first bias vector of layer 3: 
+[-0.1837 -0.7277]
+The indices of the nonzero diagonals of the first weight matrix for layer 3: 
+[-1 0 1 2 3]
+Plaintext results after the first linear tranformation of layer 3: 
+(-3.1220273121371447+0i), (-2.910577121300118+0i), 
+Encrypted results after the first linear tranformation of layer 3: 
+[-3.1220273121287043 -2.9105771213622713]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 3: 
+(-3.3057273121371447+0i), (-3.638277121300118+0i), 
+Encrypted results after addition followed the first LT in layer 3: 
+[-3.305727298099113 -3.638277065788921]
+
+The second weight matrix of layer 3: 
+[0.2618 0.2026]
+[-0.7056 -0.0965]
+The second bias vector of layer 3: 
+[-0.9155 0.1318]
+The indices of the nonzero diagonals of the second weight matrix for layer 3: 
+[-1 0 1]
+Plaintext results after the second linear tranformation of layer 3: 
+(-0.08018726381611246+0i), (0.6100537944658719+0i), 
+Encrypted results after the second linear tranformation of layer 3: 
+[-0.08018726377759863 0.6100537945636506]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 3: 
+(-0.9956872638161125+0i), (0.741853794465872+0i), 
+Encrypted results after addition followed the second LT in layer 3: 
+[-0.9956872637761047 0.7418537945649164]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 3: 
+(3.291470582344026-0i), (-2.699069687754862+0i), 
+Encrypted results after multiplication in layer 3: 
+[3.2914705681847627 -2.6990696469043374]
+********************************************************************
+
+The 3-th sample: 
+[-0.9790970111432661 -0.3011888736701806]
+
+Layer 1 begins ...
+The first weight matrix of layer 1: 
+[0.1815 -0.1109]
+[0.2211 0.1945]
+[-0.52 -0.4896]
+[-0.3234 -0.4623]
+[0.1522 0.1109]
+[0.7027 -0.2258]
+The first bias vector of layer 1: 
+[-0.6859 0.549 0.3449 -0.6427 -0.889 0.6273]
+The indices of the nonzero diagonals of the first weight matrix for layer 1: 
+[-5 -4 -3 -2 -1 0 1]
+Plaintext results after the first linear tranformation of layer 1: 
+(-0.14430426143247976+0i), (-0.27505958509262624+0i), (0.6565925183434188+0i), (0.4558795897014568+0i), (-0.18242041118602814+0i), (-0.6200030220556463+0i), 
+Encrypted results after the first linear tranformation of layer 1: 
+[-0.14430426152081127 -0.27505958504686423 0.6565925181880974 0.4558795895960869 -0.1824204111648356 -0.6200030219823445]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 1: 
+(-0.8302042614324797+0i), (0.2739404149073738+0i), (1.0014925183434187+0i), (-0.18682041029854324+0i), (-1.0714204111860282+0i), (0.007296977944353689+0i), 
+Encrypted results after addition followed the first LT in layer 1: 
+[-0.8302042615206793 0.2739404149520731 1.0014925181884586 -0.18682041040246147 -1.0714204111645231 0.007296978017522385]
+
+The second weight matrix of layer 1: 
+[-0.1868 0.6503]
+[-0.4815 0.4987]
+[-0.6861 -0.4742]
+[-0.145 -0.3644]
+[0.9191 -0.4693]
+[-0.5791 -0.567]
+The second bias vector of layer 1: 
+[0.9008 -0.6776 0.2329 -0.8234 0.4651 -0.1334]
+The indices of the nonzero diagonals of the second weight matrix for layer 1: 
+[-5 -4 -3 -2 -1 0 1]
+Plaintext results after the second linear tranformation of layer 1: 
+(-0.012967802866156342+0i), (0.3212323195661636+0i), (0.8145822232397946+0i), (0.25172229218118736+0i), (-0.7585401245283602+0i), (0.7377691705240578+0i), 
+Encrypted results after the second linear tranformation of layer 1: 
+[-0.012967802850429071 0.3212323195438244 0.81458222306322 0.25172229211380764 -0.758540124485485 0.7377691704152295]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 1: 
+(0.8878321971338436+0i), (-0.3563676804338364+0i), (1.0474822232397947+0i), (-0.5716777078188127+0i), (-0.29344012452836016+0i), (0.6043691705240578+0i), 
+Encrypted results after addition followed the second LT in layer 1: 
+[0.8878321971506145 -0.35636768045745926 1.0474822230635685 -0.5716777078841973 -0.29344012448770884 0.60436917041623]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 1: 
+(-0.7370820734974785+0i), (-0.09762351023762354+0i), (1.049045609672385+0i), (0.1068010639332413-0i), (0.3143977388806549-0i), (0.004410068507561383+0i), 
+Encrypted results after multiplication in layer 1: 
+[-0.7370820735561094 -0.09762351027938002 1.049045609183889 0.10680106401242219 0.3143977388332019 0.004410068557199942]
+
+Layer 2 begins ...
+The first weight matrix of layer 2: 
+[-0.1156 0.0317 0.3381 0.617 -0.12 0.1477]
+[0.5424 0.4867 -0.4565 -0.6493 0.1044 -0.2335]
+[0.5554 0.4848 0.0442 -0.5252 0.5687 0.3172]
+[-0.566 -0.235 0.045 -0.0896 0.0827 0.3827]
+The first bias vector of layer 2: 
+[0.7512 -0.8474 -0.2964 0.7326]
+The indices of the nonzero diagonals of the first weight matrix for layer 2: 
+[-3 -2 -1 0 1 2 3 4 5]
+Plaintext results after the first linear tranformation of layer 2: 
+(0.46561423785388156+0i), (-0.9637485576794389+0i), (-0.28623049650911714+0i), (0.5054560818645204+0i), 
+Encrypted results after the first linear tranformation of layer 2: 
+[0.46561423776451283 -0.9637485576488881 -0.28623049654223887 0.5054560818146003]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 2: 
+(1.2168142378538815+0i), (-1.8111485576794388+0i), (-0.5826304965091171+0i), (1.2380560818645203+0i), 
+Encrypted results after addition followed the first LT in layer 2: 
+[1.2168142006855702 -1.8111485158208347 -0.5826304819123 1.2380560456535796]
+
+The second weight matrix of layer 2: 
+[-1.0146 0.1661]
+[-0.591 0.2612]
+[-0.8615 0.2028]
+[0.0883 0.4161]
+The second bias vector of layer 2: 
+[0.3899 0.5182 -0.9276 -0.918]
+The indices of the nonzero diagonals of the second weight matrix for layer 2: 
+[-3 -2 -1 0 1]
+Plaintext results after the second linear tranformation of layer 2: 
+(0.9433643555893407+0i), (0.49997579978301904+0i), (0.7824109715196111+0i), (-0.21177895641811256+0i), 
+Encrypted results after the second linear tranformation of layer 2: 
+[0.9433643555479383 0.4999757997359496 0.7824109714281262 -0.211778956449656]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 2: 
+(1.3332643555893409+0i), (1.018175799783019+0i), (-0.14518902848038884+0i), (-1.1297789564181127+0i), 
+Encrypted results after addition followed the second LT in layer 2: 
+[1.3332643555481294 1.018175799735522 -0.14518902857075883 -1.129778956448905]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 2: 
+(1.6223350507041903+0i), (-1.844067631241124+0i), (0.08459155575120529-0i), (-1.3987297081559953+0i), 
+Encrypted results after multiplication in layer 2: 
+[1.6223350010605735 -1.8440675885589912 0.08459155352046722 -1.3987296673312182]
+
+Layer 3 begins ...
+The first weight matrix of layer 3: 
+[-0.8294 0.3906 0.5344 0.2083]
+[-0.0553 0.8041 -0.2445 0.5095]
+The first bias vector of layer 3: 
+[-0.1837 -0.7277]
+The indices of the nonzero diagonals of the first weight matrix for layer 3: 
+[-1 0 1 2 3]
+Plaintext results after the first linear tranformation of layer 3: 
+(-2.312007113474537+0i), (-2.3058652738599443+0i), 
+Encrypted results after the first linear tranformation of layer 3: 
+[-2.3120071134839097 -2.305865273847839]
+
+ Addition: 
+ Plaintext results after addition followed the first LT in layer 3: 
+(-2.4957071134745368+0i), (-3.0335652738599443+0i), 
+Encrypted results after addition followed the first LT in layer 3: 
+[-2.4957070994543185 -3.0335652182744886]
+
+The second weight matrix of layer 3: 
+[0.2618 0.2026]
+[-0.7056 -0.0965]
+The second bias vector of layer 3: 
+[-0.9155 0.1318]
+The indices of the nonzero diagonals of the second weight matrix for layer 3: 
+[-1 0 1]
+Plaintext results after the second linear tranformation of layer 3: 
+(-0.31734846332288563+0i), (0.719915577371861+0i), 
+Encrypted results after the second linear tranformation of layer 3: 
+[-0.3173484633190278 0.7199155772835921]
+
+ Addition: 
+ Plaintext results after addition followed the second LT in layer 3: 
+(-1.2328484633228856+0i), (0.851715577371861+0i), 
+Encrypted results after addition followed the second LT in layer 3: 
+[-1.232848463317534 0.8517155772848577]
+
+ Multiplication: 
+ Plaintext results after multiplication in layer 3: 
+(3.076828679751077-0i), (-2.58373479872085+0i), 
+Encrypted results after multiplication in layer 3: 
+[3.076828662526112 -2.5837347510919697]
+********************************************************************

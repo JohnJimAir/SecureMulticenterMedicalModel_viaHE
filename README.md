@@ -1,0 +1,3 @@
+This repository contains the code for the paper “Secure Multicenter Medical Model Inference using Homomorphic Encryption”.
+
+The "KAN_HE" directory includes the code for the KAN model described in the paper, while the "CaseStudy_Pack" directory contains the code for other models such as EPDN, APDN, and Selu. However, please note that the code in these two directories cannot be executed directly, as they depend on additional modules. The complete executable code is provided in the "Complete_Code" directory, which you can download and run.

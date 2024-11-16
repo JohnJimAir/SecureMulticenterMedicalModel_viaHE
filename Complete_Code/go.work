@@ -1,0 +1,19 @@
+go 1.23.1
+
+use ./lattigo
+
+use ./top-lattigo-ckks
+
+use ./numerical-read-print
+
+use ./plain-math
+
+
+use ./KAN_HE
+
+// use ./CaseStudy
+
+use ./CaseStudy_Pack
+
+use ./examine-plot
+
